@@ -1,0 +1,40 @@
+# Build artifacts
+/dist/
+/dist-newstyle/
+
+# Cabal sandbox (old style)
+.cabal-sandbox/
+cabal.sandbox.config
+
+# Stack (if you ever use it)
+.stack-work/
+
+# GHC / Haskell build output
+*.hi
+*.o
+*.dyn_o
+*.dyn_hi
+
+# GHC environment files
+.ghc.environment.*
+
+# Local binaries
+*.exe
+*.out
+
+# Cabal / build logs
+cabal.project.local
+cabal.project.local~
+cabal.project.freeze
+*.buildinfo
+*.log
+
+# Temporary or editor files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
