@@ -20,5 +20,5 @@ findBasementIndex (i:is) index floorsum
 
 main :: IO ()
 main = do
-    contents <- getContents
+    contents <- readFile "data.txt"
     print (findBasementIndex (map mapCharToNumber contents) 0 0 )
