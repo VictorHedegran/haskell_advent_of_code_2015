@@ -1,6 +1,6 @@
 # Build artifacts
-/dist/
-/dist-newstyle/
+dist
+dist-newstyle
 
 # Cabal sandbox (old style)
 .cabal-sandbox/
